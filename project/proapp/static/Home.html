@@ -5,41 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dribbble Clone</title>
-    
+
+  
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        .hero-section {
-            background-color: #ff5e5b;
-            color: white;
-            padding: 100px 0;
-            text-align: center;
-        }
-
-        .content-section {
-            padding: 60px 0;
-            text-align: center;
-        }
-
-        .footer {
-            background-color: #333;
-            color: white;
-            padding: 20px 0;
-            text-align: center;
-        }
-
-        .card img {
-            max-height: 250px;
-            object-fit: cover;
-        }
-
-        .container {
-            margin-top: 30px;
-        }
-    </style>
 </head>
 
 <body>
-    
+   
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
             <a class="navbar-brand" href="#">Dribbble</a>
@@ -56,7 +28,7 @@
                         <a class="nav-link" href="#">About us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Sign in </a>
+                        <a class="nav-link" href="#">Sign in</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contact us</a>
@@ -66,21 +38,19 @@
         </div>
     </nav>
 
-  
-    <div class="hero-section">
+    <div class="hero-section text-white text-center py-5" style="background-color: #ff5e5b;">
         <h1>Welcome to Dribbble</h1>
         <p>Explore design inspiration and showcase your work</p>
         <a href="#" class="btn btn-light btn-lg">Get Started</a>
     </div>
 
-    
-    <div class="content-section bg-light">
-        <div class="container">
+    <div class="content-section bg-light py-5">
+        <div class="container text-center">
             <h2>Featured Designs</h2>
             <div class="row">
                 <div class="col-md-4 mb-4">
                     <div class="card">
-                        <img src="Health app.jpg" class="card-img-top" alt="Design 1">
+                        <img src="Health app.jpg" class="card-img-top" alt="Design 1" style="max-height: 250px; object-fit: cover;">
                         <div class="card-body">
                             <h5 class="card-title">Health app</h5>
                             <p class="card-text">A beautiful minimalist design concept.</p>
@@ -89,7 +59,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <div class="card">
-                        <img src="Sky adventures.jpg" class="card-img-top" alt="Design 2">
+                        <img src="Sky adventures.jpg" class="card-img-top" alt="Design 2" style="max-height: 250px; object-fit: cover;">
                         <div class="card-body">
                             <h5 class="card-title">Sky adventures</h5>
                             <p class="card-text">Explore a vibrant and modern look for mobile apps.</p>
@@ -98,7 +68,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <div class="card">
-                        <img src="Club edge.jpg" class="card-img-top" alt="Design 3">
+                        <img src="Club edge.jpg" class="card-img-top" alt="Design 3" style="max-height: 250px; object-fit: cover;">
                         <div class="card-body">
                             <h5 class="card-title">Club edge</h5>
                             <p class="card-text">Creative concepts for website layouts.</p>
@@ -108,22 +78,23 @@
             </div>
         </div>
     </div>
-    <div class="content-section">
-        <div class="container">
+
+    <div class="content-section py-5">
+        <div class="container text-center">
             <h2>Popular Designers</h2>
             <div class="row">
                 <div class="col-md-4 mb-4">
                     <div class="card">
-                        <img src="Designer-1.jpg" class="card-img-top" alt="Designer 1">
+                        <img src="Designer-1.jpg" class="card-img-top" alt="Designer 1" style="max-height: 250px; object-fit: cover;">
                         <div class="card-body">
-                            <h5 class="card-title">Sowmya C</h5>                 
+                            <h5 class="card-title">Sowmya C</h5>
                             <p class="card-text">A renowned designer with expertise in web design.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 mb-4">
                     <div class="card">
-                        <img src="Designer-2.jpg" class="card-img-top" alt="Designer 2">
+                        <img src="Designer-2.jpg" class="card-img-top" alt="Designer 2" style="max-height: 250px; object-fit: cover;">
                         <div class="card-body">
                             <h5 class="card-title">Siddharth M</h5>
                             <p class="card-text">Known for creating stunning branding designs.</p>
@@ -132,7 +103,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <div class="card">
-                        <img src="Designer-3.jpg" class="card-img-top" alt="Designer 3">
+                        <img src="Designer-3.jpg" class="card-img-top" alt="Designer 3" style="max-height: 250px; object-fit: cover;">
                         <div class="card-body">
                             <h5 class="card-title">Mounika M</h5>
                             <p class="card-text">Specializes in mobile and app design.</p>
@@ -142,10 +113,9 @@
             </div>
         </div>
     </div>
-   
-    
 
-    <footer class="footer">
+  
+    <footer class="footer bg-dark text-white text-center py-3">
         <p>&copy; 2024 Mounika M</p>
     </footer>
 
